@@ -3,23 +3,59 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+
+}
+  
+li {
+    display: inline;
+    margin: 0 10px; 
+}
+
+a:hover {
+
+    color: #ff8364;
+}
+
 .container {
 
     
     
     text-align: center;
-    padding: 5% 25%;
+    padding: 5% 5%;
 }
 
 .title {
 
     font-family: 'Bebas Neue';
 
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .footer {
 
+    text-align: center;
     padding: 75px;
-    background-color: #af460f;
+    background-color: #ff8364;
+}
+
+.nav-bar {
+
+    margin-bottom: 25px;
+}
+
+@media (max-width: 900px){
+
+    .container {
+
+        text-align: center;
+        padding: 5% 10%;
+    }
 }
