@@ -32,6 +32,12 @@ a:hover {
     padding: 5% 5%;
 }
 
+.btn {
+
+    border:#ff8364;
+    background-color: #ff8364;
+}
+
 .title {
 
     font-family: 'Bebas Neue';
@@ -41,13 +47,19 @@ a:hover {
 .footer {
 
     text-align: center;
-    padding: 75px;
+    padding-top: 85px;
+    padding-bottom: 15px;
     background-color: #ff8364;
 }
 
 .nav-bar {
 
     margin-bottom: 25px;
+}
+
+.our-attributes {
+
+    margin: 3rem 2rem;
 }
 
 @media (max-width: 900px){
